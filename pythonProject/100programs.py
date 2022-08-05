@@ -4747,6 +4747,7 @@ obj2.start()
 obj1.join()
 obj2.join()
 print('bye')
+print("sindhu")
 
 
 
