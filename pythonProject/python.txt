@@ -1,0 +1,2 @@
+from test1 import student
+print(student.sum(20,40))
