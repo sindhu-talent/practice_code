@@ -1034,6 +1034,8 @@ import math
 #  i = i + 1
 ## QUESTION 11:
 from logging import exception
+from threading import Thread
+from time import sleep
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
@@ -4720,11 +4722,33 @@ given_list=[1,1,2,2,3,3,4]
 # x=lambda a*a
 
 
-def myfunc(a):
-    a=a.append(5)
-x=[1,2,3,4]
-myfunc(x)
-print(x)
+# def myfunc(a):
+#     a=a.append(5)
+# x=[1,2,3,4]
+# myfunc(x)
+# print(x)
+
+from time import sleep
+class hello(Thread):
+    def run(self):
+        for i in range(5):
+            print('hello')
+            sleep(1)
+class hi(Thread):
+    def run(self):
+        for i in range(5):
+            print('hi')
+            sleep(1)
+obj1=hello()
+obj2=hi()
+obj1.start()
+sleep(0.2)
+obj2.start()
+obj1.join()
+obj2.join()
+print('bye')
+
+
 
 
 
