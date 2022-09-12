@@ -4719,6 +4719,9 @@ given_list=[1,1,2,2,3,3,4]
 # str1=input()
 # str2=input()
 # print(output_strings(str1,str2))
+#
+
+
 # x=lambda a*a
 
 
@@ -4728,40 +4731,147 @@ given_list=[1,1,2,2,3,3,4]
 # myfunc(x)
 # print(x)
 
-from time import sleep
-class hello(Thread):
-    def run(self):
-        for i in range(5):
-            print('hello')
-            sleep(1)
-class hi(Thread):
-    def run(self):
-        for i in range(5):
-            print('hi')
-            sleep(1)
-obj1=hello()
-obj2=hi()
-obj1.start()
-sleep(0.2)
-obj2.start()
-obj1.join()
-obj2.join()
-print('bye')
-print("sindhu")
+# from time import sleep
+# class hello(Thread):
+#     def run(self):
+#         for i in range(5):
+#             print('hello')
+#             sleep(1)
+# class hi(Thread):
+#     def run(self):
+#         for i in range(5):
+#             print('hi')
+#             sleep(1)
+# obj1=hello()
+# obj2=hi()
+# obj1.start()
+# sleep(0.2)
+# obj2.start()
+# obj1.join()
+# obj2.join()
+# print('bye')
+# print("sindhu")
+####
+# s="sindhusha"
+# s1=""
+# for i in s:
+#     s1=i+s1
+# print(s1)
+#####
+# l=[1,2,3,4,5]
+# k=[6,7,8,9,10]
+# l1=zip(l,k)
+# print(list(l1))
+#####
+# l=[1,2,3,4,5]
+# print(zip(l))
+# print(l1)
 
+# s="python"
+# result=''
+# for i in s:
+#     result=i+result
+# print(result)
+#
+# def reverse_str(k):
+#     result=''
+#     for i in k:
+#         result=i+result
+#     return result
+#
+# print(reverse_str("queen"))
+####
+#enumerate example:
+# s=[1,2,3,4,5]
+# d=enumerate(s)
+# print(list(d))
+# ####
+# a=[1,2,3,4,5,6]
+# print(list(zip(a)))
 
+# s="a2b2d3"
+# s1=""
+# for i in s:
+#     if i.isalpha():
+#         l=i
+#     else:
+#         d=int(i)
+#         s1=s1+l*d
+# print(s1)
 
+# string = 'My website is Latracal \rSolution'
+#
+# print(string)
 
+# l=[[1,2,4],[3,[5,6]],[7,8,9],[[[3]]]]
+# res=[]
+# def nested(l):
+#    for i in l:
+#         if type(i)==list:
+#             nested(i)
+#         else:
+#             res.append(i)
+# nested(l)
+# print(res)
+##Append()
+# l=[1,2,3,4,5]
+# l.append([6])
+# print(l)
+#Extend()
+# l=[1,2,3,4,5]
+# l2=[6,7,8]
+# l.extend(l2)
+# print(l)
+## Pop()
+# l=[1,2,3,4,5]
+# l.pop(3)
+# print(l)
 
+#Remove()
+# l=[1,2,3,4,5]
+# l.remove(3)
+# print(l)
 
+## Discard()
+# l={1,2,3,4,5}
+# l.discard(5)
+# print(l)
 
+# Remove()
+# l={1,2,3,4,5,6}
+# l.remove(7)
+# print(l)
 
+# string = 'geeks for geeks'
+#find()
+# # returns index value
+# result = string.find('for')
+# print(result)
+#
+# result = string.find('best')
+# print(result)
 
+##index()
 
+# string = 'geeks for geeks'
+#
+# # returns index value
+# result = string.index('for')
+# print("Substring for:", result)
+#
+# result3 = string.index("best")
+# print("substring best:", result3)
 
-
-
-
+# string = 'geeks for geeks'
+# str1=string.title()
+# print(str1)
+##capitalise()
+# string = 'geeks for geeks'
+# str=string.capitalize()
+# print(str)
+# l=[1,2,3,4,5]
+# l1=list[zip(l)]
+# print(l1)
 
 
 
