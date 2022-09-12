@@ -4872,6 +4872,10 @@ given_list=[1,1,2,2,3,3,4]
 # l=[1,2,3,4,5]
 # l1=list[zip(l)]
 # print(l1)
+sindhu
+
+
+
 
 
 
